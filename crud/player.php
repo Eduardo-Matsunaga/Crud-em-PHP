@@ -2,6 +2,8 @@
 
 class player
 {
+
+
     private $id;
     private $name;
     private $userName;

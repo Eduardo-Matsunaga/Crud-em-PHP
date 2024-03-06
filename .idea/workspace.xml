@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d62f8d29-227f-4d14-8575-b8ed11cb1c90" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c1ae606d-e48e-44aa-92ae-295c4ae41ebf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c1ae606d-e48e-44aa-92ae-295c4ae41ebf/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/listPlayers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/player.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/player.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/playerMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/playerMapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +47,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.editPlayer.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.listPlayers.html.executor": "Run",
     "JavaScript Debug.register.html.executor": "Run",
     "PHP Script.app.php.executor": "Run",
     "PHP Script.conexao.php.executor": "Run",
@@ -83,6 +94,11 @@
       <workItem from="1709527415016" duration="1847000" />
       <workItem from="1709529275908" duration="3906000" />
       <workItem from="1709575943037" duration="4707000" />
+      <workItem from="1709612891635" duration="2286000" />
+      <workItem from="1709616241714" duration="3470000" />
+      <workItem from="1709669681151" duration="27443000" />
+      <workItem from="1709730053226" duration="1445000" />
+      <workItem from="1709747660336" duration="9809000" />
     </task>
     <servers />
   </component>
@@ -94,8 +110,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/crud/app.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
+          <line>32</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
