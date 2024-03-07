@@ -83,9 +83,9 @@ if ($requestMethod === 'POST') {
 
         case 'delete':
 
-            $newPlayer = new player();
-            $newPlayer->setId($id);
-            $playerMapper->deletePlayer($newPlayer);
+            $deletePlayer = new player();
+            $deletePlayer->setId($id);
+            $playerMapper->deletePlayer($deletePlayer);
 
 
             break;

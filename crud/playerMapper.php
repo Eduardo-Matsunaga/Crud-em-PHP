@@ -151,4 +151,3 @@ class playerMapper{
     }
 
 }
-//jogadorMapper->criaJogador chama na classe main(app.php)

@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d62f8d29-227f-4d14-8575-b8ed11cb1c90" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/editPlayer.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/editPlayer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/listPlayers.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/listPlayers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/playerMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/playerMapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
-    </list>
+    <list default="true" id="d62f8d29-227f-4d14-8575-b8ed11cb1c90" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +89,7 @@
       <workItem from="1709669681151" duration="27443000" />
       <workItem from="1709730053226" duration="1445000" />
       <workItem from="1709747660336" duration="11140000" />
-      <workItem from="1709816517620" duration="13343000" />
+      <workItem from="1709816517620" duration="13584000" />
     </task>
     <servers />
   </component>
