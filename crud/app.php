@@ -12,6 +12,7 @@ if ($requestMethod === 'POST') {
     $playerMapper = new playerMapper();
     $id = $_POST['id'];
     $action = $_POST['action'];
+    $playersRows = '';
 
     switch ($action) {
         case 'create':
@@ -62,8 +63,30 @@ if ($requestMethod === 'POST') {
 
             break;
 
+        case 'confirmDelete':
+            $idToEdit = $_POST['id'];
+
+            $playerToEdit = $playerMapper->getPlayerById($idToEdit);
+            $template = file_get_contents(__DIR__.'/delete.html');
+
+            $template = str_replace('{{id}}', $playerToEdit->getId(), $template);
+            $template = str_replace('{{name}}', $playerToEdit->getName(), $template);
+            $template = str_replace('{{userName}}', $playerToEdit->getUserName(), $template);
+            $template = str_replace('{{email}}', $playerToEdit->getEmail(), $template);
+            $template = str_replace('{{password}}', $playerToEdit->getPassword(), $template);
+            $template = str_replace('{{dateRegister}}', $playerToEdit->getDateRegister(), $template);
+            echo $template;
+
+
+
+            break;
 
         case 'delete':
+
+            $newPlayer = new player();
+            $newPlayer->setId($id);
+            $playerMapper->deletePlayer($newPlayer);
+
 
             break;
 
@@ -84,7 +107,7 @@ if ($requestMethod === 'POST') {
                 $playersRows .= '<form action="app.php" method="POST">';
                 $playersRows .= '<input type="hidden" name="id" value="' . $item['id'] . '">';
                 $playersRows .= '<button type="submit" name="action" value="edit">Editar</button>';
-                $playersRows .= '<button type="submit" name="action" value="delete">Deletar</button>';
+                $playersRows .= '<button type="submit" name="action" value="confirmDelete">Deletar</button>';
                 $playersRows .= '</form>';
                 $playersRows .= '</td>';
                 $playersRows .= '</tr>';

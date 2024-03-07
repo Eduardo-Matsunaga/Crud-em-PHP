@@ -2,9 +2,7 @@
 require_once 'player.php';
 require_once 'app.php';
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 
 use pdo_poo\Database;
 class playerMapper{
@@ -33,6 +31,8 @@ class playerMapper{
             $stmt->bindParam(':dateRegister', $dateRegister);
 
             $stmt->execute();
+            echo "Jogador Criado Com Sucesso";
+            echo '<a href="register.html">Voltar</a>';
         } catch (\PDOException $e) {
             echo 'Erro: ' . $e->getMessage();
         } finally{
@@ -94,6 +94,9 @@ class playerMapper{
             $stmt->bindParam(':dateRegister', $dateRegister);
 
             $stmt->execute();
+            echo "Jogador atualizado com sucesso";
+            echo '<a href="register.html">Voltar</a>';
+
         } catch (\PDOException $e) {
             echo 'Erro: ' . $e->getMessage();
         } finally {
@@ -102,19 +105,30 @@ class playerMapper{
     }
 
 
-    /*
-        public function deletePlayer(player $player)
-        {
+
+    public function deletePlayer(player $player)
+    {
+        $db = Database::getInstance();
+        try {
+
+            $id = $player->getId();
 
 
+            $stmt =$db->prepare("DELETE FROM players WHERE id = :id;");
+
+            $stmt->bindParam(':id', $id);
+
+            $stmt->execute();
+            echo "Jogador Deletado com sucesso";
+            echo '<a href="register.html">Voltar</a>';
+        } catch (\PDOException $e) {
+            echo 'Erro: ' . $e->getMessage();
+        } finally{
+            Database::closeInstance();
         }
 
-       public static function searchPlayer(player $player->getId)
-        {
+    }
 
-
-        }
-     */
     public static function listAll()
     {
         $db = Database::getInstance();

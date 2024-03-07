@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d62f8d29-227f-4d14-8575-b8ed11cb1c90" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c1ae606d-e48e-44aa-92ae-295c4ae41ebf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c1ae606d-e48e-44aa-92ae-295c4ae41ebf/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/database.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/listPlayers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/player.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/player.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/editPlayer.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/editPlayer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/listPlayers.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/listPlayers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/playerMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/crud/playerMapper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -61,6 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/eduar/OneDrive/Área de Trabalho/Crud-php/database.db",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,7 +96,8 @@
       <workItem from="1709616241714" duration="3470000" />
       <workItem from="1709669681151" duration="27443000" />
       <workItem from="1709730053226" duration="1445000" />
-      <workItem from="1709747660336" duration="9809000" />
+      <workItem from="1709747660336" duration="11140000" />
+      <workItem from="1709816517620" duration="13343000" />
     </task>
     <servers />
   </component>
@@ -110,7 +109,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/crud/app.php</url>
-          <line>32</line>
+          <line>33</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
